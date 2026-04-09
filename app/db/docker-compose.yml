@@ -1,0 +1,21 @@
+services:
+  postgres:
+    image: postgres:16
+    container_name: nutriscan_postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: nutriscan
+      POSTGRES_USER: nutriscan_user
+      POSTGRES_PASSWORD: nutriscan_pass
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U nutriscan_user -d nutriscan"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+volumes:
+  postgres_data:
