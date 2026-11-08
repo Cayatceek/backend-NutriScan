@@ -4,11 +4,11 @@ Backend для проекта NutriScan на `FastAPI + SQLAlchemy + Alembic`.
 
 ## Документация
 
-- [API reference](/C:/Users/kurba/OneDrive/Desktop/MyProjects/Nutriscan_backend/docs/API.md)
-- [Environment variables](/C:/Users/kurba/OneDrive/Desktop/MyProjects/Nutriscan_backend/docs/ENVIRONMENT.md)
-- [Production deployment](/C:/Users/kurba/OneDrive/Desktop/MyProjects/Nutriscan_backend/docs/DEPLOYMENT.md)
-- [Oracle + cayatceek.uz deployment](/C:/Users/kurba/OneDrive/Desktop/MyProjects/Nutriscan_backend/docs/DEPLOYMENT_ORACLE_CAYATCEEK.md)
-- [Operations runbook](/C:/Users/kurba/OneDrive/Desktop/MyProjects/Nutriscan_backend/docs/OPERATIONS.md)
+- [API reference](docs/API.md)
+- [Environment variables](docs/ENVIRONMENT.md)
+- [Production deployment](docs/DEPLOYMENT.md)
+- [Oracle + cayatceek.uz deployment](docs/DEPLOYMENT_ORACLE_CAYATCEEK.md)
+- [Operations runbook](docs/OPERATIONS.md)
 
 ## Что уже есть
 
